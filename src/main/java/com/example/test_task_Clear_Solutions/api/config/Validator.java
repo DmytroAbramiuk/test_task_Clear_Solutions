@@ -1,6 +1,15 @@
 package com.example.test_task_Clear_Solutions.api.config;
 
-import com.example.test_task_Clear_Solutions.api.exception.*;
+import com.example.test_task_Clear_Solutions.api.exception.age.LowAgeException;
+import com.example.test_task_Clear_Solutions.api.exception.birthdate.WrongBirthDateException;
+import com.example.test_task_Clear_Solutions.api.exception.dates.ToIsLessThanFromException;
+import com.example.test_task_Clear_Solutions.api.exception.email.EmailContainsSpacesException;
+import com.example.test_task_Clear_Solutions.api.exception.email.EmailDoesNotContainEtException;
+import com.example.test_task_Clear_Solutions.api.exception.email.EmptyEmailException;
+import com.example.test_task_Clear_Solutions.api.exception.firstname.EmptyFirstNameException;
+import com.example.test_task_Clear_Solutions.api.exception.lastname.EmptyLastNameException;
+import com.example.test_task_Clear_Solutions.api.exception.phonenumber.PhoneContainsSpacesException;
+import com.example.test_task_Clear_Solutions.api.exception.phonenumber.StartsWithPhoneNumberException;
 import com.example.test_task_Clear_Solutions.api.service.dto.UserDto;
 
 import java.time.LocalDate;

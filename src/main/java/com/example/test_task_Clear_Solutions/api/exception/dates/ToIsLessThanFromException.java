@@ -1,4 +1,4 @@
-package com.example.test_task_Clear_Solutions.api.exception;
+package com.example.test_task_Clear_Solutions.api.exception.dates;
 
 import java.time.LocalDate;
 

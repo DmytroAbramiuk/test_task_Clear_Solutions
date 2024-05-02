@@ -1,13 +1,20 @@
 package com.example.test_task_Clear_Solutions.api.config;
 
-import com.example.test_task_Clear_Solutions.api.exception.*;
+import com.example.test_task_Clear_Solutions.api.exception.age.LowAgeException;
+import com.example.test_task_Clear_Solutions.api.exception.birthdate.WrongBirthDateException;
+import com.example.test_task_Clear_Solutions.api.exception.dates.ToIsLessThanFromException;
+import com.example.test_task_Clear_Solutions.api.exception.email.EmailContainsSpacesException;
+import com.example.test_task_Clear_Solutions.api.exception.email.EmailDoesNotContainEtException;
+import com.example.test_task_Clear_Solutions.api.exception.email.EmptyEmailException;
+import com.example.test_task_Clear_Solutions.api.exception.firstname.EmptyFirstNameException;
+import com.example.test_task_Clear_Solutions.api.exception.lastname.EmptyLastNameException;
+import com.example.test_task_Clear_Solutions.api.exception.phonenumber.PhoneContainsSpacesException;
+import com.example.test_task_Clear_Solutions.api.exception.phonenumber.StartsWithPhoneNumberException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-
-import java.time.LocalDate;
 
 @ControllerAdvice
 @Slf4j

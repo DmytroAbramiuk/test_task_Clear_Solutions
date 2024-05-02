@@ -1,4 +1,4 @@
-package com.example.test_task_Clear_Solutions.api.exception;
+package com.example.test_task_Clear_Solutions.api.exception.email;
 
 public class EmptyEmailException extends RuntimeException{
     private static final String EMPTY_EMAIL_TEXT = "email: %s is empty";

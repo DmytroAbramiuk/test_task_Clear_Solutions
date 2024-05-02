@@ -1,4 +1,4 @@
-package com.example.test_task_Clear_Solutions.api.exception;
+package com.example.test_task_Clear_Solutions.api.exception.email;
 
 public class EmailDoesNotContainEtException extends RuntimeException {
     private static final String EMAIL_DOES_NOT_CONTAIN_ET_TEXT = "email: %s does not contain @";
